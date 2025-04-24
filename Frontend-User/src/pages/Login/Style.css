@@ -1,0 +1,151 @@
+.btn-facebook{
+    background-color: #405D9D;
+    color: #fff;
+}
+.btn-google{
+    background-color: #AF0000;
+    color: #fff;
+}
+.chu{
+    color: #12225b;
+}
+.mau{
+    background-color: #12225b;
+    border-color: #12225b;
+}
+.vien{
+    border: 2px solid #12225b;
+    border-radius: 0.55rem;
+}
+.kha{
+    
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 30px;
+    color: #ec3237;
+    display: block;
+}
+.khai {
+    font-size: 15px;
+    color: #a29c9cd7;
+    text-decoration: line-through;
+    font-style: normal;
+    margin-left: 5px;
+}
+.productType{
+    font-family: Roboto , sans-serif;
+    font-size: 14px;
+}
+.img-fluid{
+    height: 40px;
+    margin-left: 12px;
+    display: inline-block;
+    margin-top: 10px; /* Đặt giá trị khoảng cách muốn */
+    position: relative;
+  display: inline-block;
+}
+.percent{
+    position: absolute;
+  top: 8%; /* Đưa văn bản lên giữa theo chiều dọc */
+  left: 15px; /* Đặt khoảng cách về bên trái */
+  transform: translateY(-40%);
+  color: #fff;
+}
+.card-img-top{
+    width: 235px; /* Đặt chiều rộng muốn */
+  height: auto; /* Chiều cao sẽ tự động điều chỉnh để giữ tỷ lệ */
+
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh; /* Đặt chiều cao của phần tử container, có thể điều chỉnh */
+  }
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image1{
+    max-width: 50%; /* Để đảm bảo hình ảnh không vượt quá chiều rộng của container */
+  max-height: 100%; /* Để đảm bảo hình ảnh không vượt quá chiều cao của container */
+}
+.fone{
+    font-family: Roboto , sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+.xuong{
+    margin-top: 10px;
+}
+.image5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image4{
+    max-width: 100%; /* Để đảm bảo hình ảnh không vượt quá chiều rộng của container */
+  max-height: 100%; /* Để đảm bảo hình ảnh không vượt quá chiều cao của container */
+  mix-blend-mode: multiply;
+}
+.collapse{
+    background-color: #12225b;
+}
+.trang{
+    color: #fff;
+}
+.bg-light-orange{
+    background-color: #f7d8d9;
+}
+.bg-light-orange1{
+    background-color: #ebf4b0;
+}
+.bg-light-orange2{
+    background-color: #dff8c8;
+}
+.img-fluid1{
+    height: 40px;
+    margin-left: 12px;
+    display: inline-block;
+    margin-top: 10px; /* Đặt giá trị khoảng cách muốn */
+    position: relative;
+  display: inline-block;
+}
+.percent1{
+    position: absolute;
+  top: 8%; /* Đưa văn bản lên giữa theo chiều dọc */
+  left: 15px; /* Đặt khoảng cách về bên trái */
+  transform: translateY(-90%);
+  color: #fff;
+}
+.mau{
+    background-color: #12225b;
+}
+.do{
+    color: #ec3237;
+}
+.xanh{
+    background-color: #97aaec;
+}
+.trang{
+    color: #fff;
+}
+.trai{
+    text-align: left;
+    padding-right: 120px;
+    font-size: 1.1em;
+    vertical-align: super;
+}
+.chu{
+    font-size: 17px;
+    margin-top: -2px; /* Căn lề trên 20 pixel */
+}
+.none {
+    display: none;
+}
+
+  
+
+  

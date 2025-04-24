@@ -1,0 +1,107 @@
+/* CartPayment.css */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-primary-custom {
+  color: #007bff;
+}
+
+.bg-light-custom {
+  background-color: #f8f9fa;
+}
+
+.rounded-pill-custom {
+  border-radius: 50px;
+}
+
+.card-shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.font-weight-bold-custom {
+  font-weight: 700;
+}
+
+.font-weight-normal-custom {
+  font-weight: 400;
+}
+
+.list-group-item-action:hover {
+  background-color: #f1f1f1;
+}
+
+.list-group-item-action.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.text-dark-custom {
+  color: #343a40;
+}
+
+.modal-header-custom {
+  border-bottom: none;
+}
+
+.modal-title-custom {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.btn-primary-custom {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary-custom:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.payment-method {
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+}
+
+.payment-method:hover {
+  background-color: #f8f9fa;
+}
+
+.payment-method.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.payment-icon {
+  margin-right: 0.5rem;
+  font-size: 20px;
+}
+
+.payment-icon.truck {
+  color: #4CAF50; /* Màu xanh lá cho Truck */
+}
+
+.payment-icon.qrcode {
+  color: #FF5722; /* Màu cam cho QR */
+}
+
+.payment-icon.credit-card {
+  color: #2196F3; /* Màu xanh dương cho Credit Card */
+}
+
+.payment-icon.mobile {
+  color: #FFC107; /* Màu vàng cho Mobile */
+}
+
+.payment-icon.reg-credit-card {
+  color: #9C27B0; /* Màu tím cho Reg Credit Card */
+}
+
+.payment-icon.money-check {
+  color: #F44336; /* Màu đỏ cho Money Check */
+}

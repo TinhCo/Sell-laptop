@@ -1,0 +1,62 @@
+spring:
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  datasource:
+    username: root
+    password:
+    url: jdbc:mysql://localhost:3306/movie_test
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: "phungtoan872@gmail.com"
+    password: "huic mvte ytmj xhqh"
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 2MB
+      max-request-size: 2MB
+    web:
+    resources:
+      static-locations:
+        - classpath:/static/
+        - file:./images/
+    mvc:
+      static-path-pattern: /images/**
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+server:
+  port: 8081
+
+
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+
+project:
+  poster: posters/
+  image: images/
+base:
+  url: "http://localhost:8081"
+

@@ -1,0 +1,79 @@
+spring:
+  kafka:
+    consumer:
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+      properties:
+        spring.deserializer.value.delegate.class: com.tinhco.services.impl.MailBodyDeserializer
+
+
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  datasource:
+    username: root
+    password:
+    url: jdbc:mysql://localhost:3306/movie_test
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.MySQLDialect
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: "phungtoan872@gmail.com"
+    password: "sjdj syct rhwy ixok"
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 2MB
+      max-request-size: 2MB
+    web:
+    resources:
+      static-locations:
+        - classpath:/static/
+        - file:./images/
+    mvc:
+      static-path-pattern: /images/**
+
+  thymeleaf:
+    prefix: classpath:/static/
+    suffix: .html
+    mode: HTML
+    encoding: UTF-8
+    cache: false
+
+server:
+  port: 8081
+
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+
+project:
+  poster: posters/
+  image: images/
+base:
+  url: "http://localhost:8081"
+
+logging:
+  level:
+    org.hibernate: ERROR
+    org.hibernate.SQL: ERROR
+    org.hibernate.type: ERROR
